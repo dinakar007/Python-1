@@ -1,0 +1,3 @@
+X= input("Input your First Name : ")
+Y = input("Input your Last Name : ")
+print (Y + " " + X)
