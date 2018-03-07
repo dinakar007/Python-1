@@ -1,5 +1,5 @@
-x=input("Enter you First name")
-y=input("enter your Last name")
-Z=(y+" "+x)
-print(Z)
-print (' '.join(reversed(Z)))
+l=[]
+for i in range(2000, 3201):
+    if (i%7==0) and (i%5!=0):
+        l.append(str(i))
+print (l)
